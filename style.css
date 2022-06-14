@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+main{
+    width: 50%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.master{
+    display: flex;
+}
+.div1{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 2em;
+}
+.div1 h3{
+  
+    font-size: 20px;
+    margin: 10px;
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+.div1 p{
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.div2{
+    background-color:   hsl(184, 100%, 22%);
+    padding: 2em;
+}
+.div2 h3{
+  
+    font-size: 20px;
+    margin: 10px;
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+.div2 p{
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.div3{
+    background-color:   hsl(179, 100%, 13%);
+    padding: 2em;
+}
+.div3 h3{
+  
+    font-size: 20px;
+    margin: 10px;
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+.div3 p{
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    
+    background-color:hsl(0, 0%, 95%) ;
+    border: none;
+    color:hsl(31, 77%, 52%) ;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+}
+.btnlearn2{
+    
+    background-color:hsl(0, 0%, 95%) ;
+    border: none;
+    color:hsl(184, 100%, 22%) ;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+}
+.btnlearn3{
+    
+    background-color:hsl(0, 0%, 95%) ;
+    border: none;
+    color:hsl(179, 100%, 13%) ;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color:  hsla(0, 0%, 100%, 0.75);
+    border: 2px solid  hsla(0, 0%, 100%, 0.75);
+}
+.btnlearn2:hover{
+    background-color: transparent;
+    color:  hsla(0, 0%, 100%, 0.75);
+    border: 2px solid  hsla(0, 0%, 100%, 0.75);
+}
+
+.btnlearn3:hover{
+    background-color: transparent;
+    color:  hsla(0, 0%, 100%, 0.75);
+    border: 2px solid  hsla(0, 0%, 100%, 0.75);
+}
+
+
